@@ -30,6 +30,17 @@ class Person
     public function __call($name,$arguments)
     {
         $no_method=true;
+        $method_name==substr($name,0,3);
+        if($method_name=="get")
+        {
+          $no_method=false; 
+          $real_name=substr($name,3);
+          return $this->real_name . "\n" ;
+        }
+        if($no_method)
+        {
+            throw Exception("Metodo {$name} no encontrado");
+        }
     }
 }
 $persona = new Person("Bernardo","Pineda","555 5555","444 44444");

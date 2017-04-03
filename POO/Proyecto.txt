@@ -12,3 +12,57 @@ Practica 1.- Ejemplificando la herencia
 
 --------------------------------------------
 Extensiones necesarias que se instalan:
+
+
+///Ventajas y desventajas////
+__Porque usar POO?
+
+Codigo reutilizable y reusable
+
+Encapsulacion
+
+Beneficios de diseño
+
+Mantenimiento del software
+
+__Desventajas
+
+Puede ser más complicado de aprender
+
+Requiere pensamiento profundo
+
+Mas código
+
+////Visibilidad//////
+public - Accesible fuera de la clase
+protected - Accesible dentro la clase y extendida
+en alguna clase.
+private - Accesible solo por la propia clase.
+
+* Puede ser agregado a las propiedades y metodos
+
+////herencia////
+* Las CLASES pueden ser extendidas a una clase hija
+(Herencia simple)
+
+* Las CLASES hijas tienen acceso a todas las 
+propiedade de la clase padre, menos la Visibilidad
+que la clase padre tenga como privado.
+
+__Clases abstractas
+
+abstract class SomeClass{
+    abstract public function someFunction()
+    {
+
+    }
+}
+
+* No puede ser instanciada y usada directamente
+* Debe ser extendida por otra clase
+* Si una propiedad o método es abstracto entonces
+la clase también debe ser abstracta
+
+////Metodos mágicos////
+
+
