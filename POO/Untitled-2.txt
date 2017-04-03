@@ -1,0 +1,32 @@
+public abstract class Figuras {
+    public double Area(int a, int b
+    ) {
+        int area=a*b;
+    }
+    public double Perimetro();
+}
+
+interface IPrueba
+{
+    public prueba1();
+    public prueba2();
+
+}
+
+public class Cuadrado : Figuras implements IPrueba{
+    public prueba1(){}
+    public prueba2()
+}
+public class Rectangulo: Figuras implemnts ICalculator{
+}
+
+Public generarCalculosOnline()
+{
+    Cuadrado c=new Rectangulo();
+}
+interface ICalculator
+{
+    public double Area();
+    public double Permetro(List<T> valores);
+}
+

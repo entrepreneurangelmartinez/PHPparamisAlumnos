@@ -1,0 +1,29 @@
+No hay framework
+Model ---Directa una base de datos
+View  ---No existe un motor de templates o de vistas
+Controller ----
+
+Con framework       
+Model ---    
+View
+Controller
+
+Jerarquia
+
+View---- Motor de vista (Alumno)
+Ejemplo : .net .cshtml (Motor razor).
+Alumno.PHP
+Maestro.PHP
+Materia.PHP
+Conexion ---- Recibiendo un objeto o un modelo desde el controlador
+Controller (Standby)
+PHP o C# O .VB
+AlumnoController
+MaestroController
+MateriaController
+Action
+MOdel  Conexion con el controlador
+
+AlumnoModel
+MaestroModel
+MeteriaModel
