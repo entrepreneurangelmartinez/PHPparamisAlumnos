@@ -26,10 +26,10 @@ class Person
         echo "Estoy siendo creado \n" . rand(1,99) . "\n";
     }
 
-    for ($i =0; $i<5; $i++)
-    {
-        $person = new Person();
-    }
+    // for ($i =0; $i<5; $i++)
+    // {
+    //     $person = new Person();
+    // }
     $person = new Person();
     $person->run();
     $person->walk();

@@ -1,1 +1,14 @@
+Configurando nuestro entorno de programación PHP
+https://blogs.msdn.microsoft.com/nicktrog/2016/02/11/configuring-visual-studio-code-for-php-development/
+https://code.visualstudio.com/docs/languages/php
+
+//Descarg de la dll
+https://xdebug.org/wizard.php
+
 Practica 1.- Ejemplificando la herencia
+
+
+
+
+--------------------------------------------
+Extensiones necesarias que se instalan:
