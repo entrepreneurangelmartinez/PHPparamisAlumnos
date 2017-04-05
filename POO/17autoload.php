@@ -1,9 +1,10 @@
 <?php
-function app_autoloader($class)
-{
-    // include $class . ".php";
-    include "classes/" .  $class . ".php";
-}
+// function app_autoloader($class)
+// {
+//     include $class . ".php";
+//     // include "classes/" .  $class . ".php";
+    
+// }
 
 //primer manera
 // spl_autoload_register("app_autoloader");
@@ -12,5 +13,6 @@ function app_autoloader($class)
 
 spl_autoload_register(function($class)
 {
-    include $class . ".php";
+    //include $class . ".php";
+    include "at/bistro/" . $class .".php";
 });
