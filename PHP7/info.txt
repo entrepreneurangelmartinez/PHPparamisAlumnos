@@ -1,0 +1,20 @@
+////Porqué migrar a php 7?////
+
+* Mejoras en rendimiento y velocidad
+* Sintaxis tipo java y C (type hints)
+* Arreglo constantes
+
+//Conexion entre ambitos relacionados
+//antiguamente bindto
+* Closure::call()
+*intdiv()
+//arreglo con indices tomado como expresion regular
+*preg_replace_callback_array()
+* random_bytes() y random_int()
+
+*List con objetos ArrayAccess
+
+* Filtros para unserialize()
+//cuando esten en namespaces
+* Use agrupados 
+Opcion de sesion en tiempo de ejecucion
