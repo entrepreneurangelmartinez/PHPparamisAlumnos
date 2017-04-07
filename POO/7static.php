@@ -3,8 +3,8 @@
 class DBStatic
 {
     public static $db_user="amartinez";
-    public static $db_password="12345678"
-    public static $db_database_name="PHP_OO_DB"
+    public static $db_password="12345678";
+    public static $db_database_name="PHP_OO_DB";
 
     public static function connect()
     {
@@ -49,7 +49,7 @@ class MyProfile extends BaseProfile
     {
         return $this->email;
     }
-    public tunction setEmail($email)
+    public function setEmail($email)
     {
         //Reglas para la asignación de nuestro correo
         $this->email=$email;

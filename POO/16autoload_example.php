@@ -1,4 +1,5 @@
 <?php
+
 // require_once("Config.php");
 require_once("17autoload.php");
 echo Config::ENVIRONMENT;
