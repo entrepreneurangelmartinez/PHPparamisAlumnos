@@ -31,3 +31,21 @@ Clases
 Enrutador
 (Archivo encargado de llamar a las Vistas
 y las clases)
+
+
+
+Estructura de base de datos
+
+Diccionario de datos
+
+Secciones
+id : int(11)
+nombre: varchar(80)
+
+Estudiantes
+id: int(11)
+nombre: varchar(200)
+edad: int(11)
+promedio:double
+imagen: varchar(200)
+id_seccion: int(11)
