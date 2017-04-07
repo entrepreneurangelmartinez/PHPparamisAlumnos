@@ -10,7 +10,8 @@ class Conexion{
     private $con;
     public function __construct()
     {
-        $this->con=new mysqli($this->datos["host"],
+        //Cuando se usa namespaces hay que agregarle el enlace convertidor
+        $this->con=new \mysqli($this->datos["host"],
         $this->datos["user"], $this->datos["pass"],
         $this->datos["db"]);
     }
